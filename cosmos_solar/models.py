@@ -10,4 +10,7 @@ class SobreNos(models.Model):
     text = models.TextField(verbose_name="Texto", blank=True)
 
     def __str__(self):
-        return "Sobre nós: Titulo"
+        return "Sobre Nós: Sessão 1"
+
+    class Meta:
+        verbose_name_plural = "Sobre Nós"
